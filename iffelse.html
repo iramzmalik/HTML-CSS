@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	    #inp{
+		padding: 5px;
+		border-radius: 8px;
+		color: grey;
+	}
+
+	    button {
+		padding: 10px;
+		background: dodgerblue;
+		color: white;
+		border-radius: 7px;
+
+	}
+    </style>
+	
+	     <title>If, If else, If else if....else</title>
+</head>
+
+<body align="center" bgcolor="papayawhip">
+	<table border="2" align="center">
+		<tr>
+			<td align="center"><i><b>This is Iram Malik</b> <br><b>And my topic is 
+			Conditional Statements is JavaScript</b></i> </td>
+		</tr>
+	</table>
+	<br><br>
+	<table border="2" align="center">
+		<tr>
+			<td align="center"><i><b>Conditional statments in javascript are the ways to essentially check a condition before executing a certain block of code.<br> They are extremely useful and kind of fundamental skills in language</b></i> </td>
+		</tr>
+	</table>
+	<br><br>
+	<table border="2" align="center">
+		<tr>
+			<td align="center"><i><b>There are three types of conditional satements in javascript</b> <br><b> 1. If statement<br> 2. If, Else statement</b><br> <b>3.If, Else if....Else statement</b></i> </td>
+		</tr>
+	</table>
+	
+	<h1 id="header"> If, Else if, Else</h1>
+	<input type="text" id="inp"/>
+	<br><br>
+	<button onclick = "pressed()"> CLICK </button>
+	<script>
+		function pressed()
+	{
+			var text = document.getElementById("inp").value;
+
+
+		if (text === "red")
+		  {
+			document.getElementById("header").style.color = "red";
+		  }
+		  else if (text === "green")
+		  {
+		  	document.getElementById("header").style.color = "green";
+		  }
+		   else if (text === "pink")
+		  {
+		  	document.getElementById("header").style.color = "pink";
+		  }
+		   else if (text === "blue")
+		  {
+		  	document.getElementById("header").style.color = "blue";
+		  }
+		  else
+		  {
+		  	document.getElementById("header").style.color = "black";
+		  }
+	}  
+
+	</script>
+  </body>
+</html> 

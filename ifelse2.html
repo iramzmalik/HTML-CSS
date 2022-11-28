@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Gender </title>
+
+	<script>
+			function checkgender()
+		{
+			gen=f.gender.value
+			if(gen == "MALE")
+				alert("You selected male")
+			else
+				alert("female option selected")
+		}
+	</script>
+	<title> If else </title>
+
+</head>
+<body bgcolor="aqua">
+    <form name="f">
+
+		<h1 align="center"> PLEASE SELECT YOUR GENDER: </h1>
+
+		<input type="radio" name="gender" value="MALE" onchange="checkgender()">
+		<i><b>MALE</b></i> <br><br>
+
+		<input type="radio" id="btn" name="gender" value="female"onchange="checkgender()"><i><b>FEMALE</b></i> <br><br>
+
+		<input type="button"name="btn" value="check" onclick="checkgender()">
+
+	</form>
+</body>
+</html>

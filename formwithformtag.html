@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form validation using form tags</title>
+</head>
+<body bgcolor="tan">
+<form>
+
+	<label> Name </label><input type="text" required name="fname" placeholder="Enter your name"><br><br>
+
+
+	<label>Password </label><input type="password" required name="fpass" placeholder="Enter your password"><br><br>
+	
+
+	<label>Confirm Password </label><input type="password" required name="cpass" placeholder="Confirm your password"><br><br>
+
+	<label>Email </label><input type="email" name="femail" required placeholder="Enter your email id"><br><br>
+	<label>Phone Number </label><input type="number" required name="fnumber" placeholder="Enter your phone no"><br><br>
+
+	<label>Gender </label><input type="radio" required name="gender" id="Male"><label for="Male">Male</label><input type="radio" name="gender" id="Female"><label for="Female">Female</label><br><br>
+
+	<label>Enter Your Subjects: </label><input type="checkbox" required name="checkbox">
+
+	<label>Web Technologies</label><input type="checkbox" name="checkbox"><label>Computer Architecture</label><input type="checkbox" name="checkbox"><label> Discrete Mathematics</label><input type="checkbox" name="checkbox"><label>C Programming</label> <br> <br>
+
+	<label>Address </label><textarea rows="5" cols="40"></textarea>
+	<br><br>
+
+	<label>Enter Your Course</label>
+
+	<select> 
+		<option>BCA</option>
+		<option>M.TECH</option>
+		<option selected>MCA</option>
+		<option>B.TECH</option>
+	</select>
+	<br><br><br>
+		<label>Choose the areas where you want to work  </label>
+		<select>
+		<optgroup label="Srinagar">
+			<option>Lal-chowk</option>
+			<option>Safa Kadal</option>
+			<option>Dargah</option>
+		</optgroup>
+
+		<optgroup label="Anantnag" >
+			<option>Khanabal</option>
+			<option>Dangarpora</option>
+			<option>Kadipura</option>
+	</optgroup>
+</select>
+<br><br><br>
+ <label>Choose an elective Subject</label>
+ <input list="Choose an elective Subject">
+ 	<datalist id="Choose an elective Subject">
+ 	<option value="MIS">
+ 	<option value="Technical Communication">
+ 	<option value="Computer Fundamentals">
+ 	<option value="AST">
+ 	<option value="NIT">
+ 	<option value="BHI">
+ 	<option value="KIL">
+ 	<option value="SRC">
+ 	</datalist>
+ <br><br><br>
+  <label>Upload you photo </label>
+  <input type="file" name="file" accept="image">
+ 	
+</form> 
+
+</body>
+</html>

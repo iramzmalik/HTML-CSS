@@ -1,0 +1,29 @@
+.container{
+	background-color:yellowgreen;
+	height:600px;
+	/*width:1000px;*/
+	display:grid;
+	grid-template-rows: 100px 1fr 1fr;
+	grid-template-columns:1fr 1fr 1fr;
+	grid-row-gap: 5px;
+	column-gap: 8px;
+}
+
+.item{
+	background-color: blanchedalmond;
+	/*height: 122px;
+	width: 122px;*/
+
+}
+.item1{
+	grid-column-start:1 ;
+	grid-column-end: 4;
+}
+.footer{
+
+grid-column-start:3;
+grid-column-end: 4;
+background-color:yellowgreen;
+
+
+}
